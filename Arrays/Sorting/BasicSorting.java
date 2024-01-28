@@ -32,15 +32,12 @@ public class BasicSorting {
             arr[min] = temp;
         }
     }
-    
+
     public static void main(String[] args) {
         int arr[] = {6,2,1,5,3,4};
         // bubbleSort(arr);
         selectionSort(arr);
         printArray(arr);
 
-
-        
-    }
-    
+    }  
 }
